@@ -224,7 +224,7 @@ const fetchData = async () => {
 
     // 結果データの取得
     const resultResponse = await fetch(
-      `http://prometheus.polyarchy.net.s3-website-ap-northeast-1.amazonaws.com/jobs/${props.jobName}/result.json`,
+      `https://d18pux3zofd2wh.cloudfront.net/jobs/${props.jobName}/result.json`,
       { method: 'GET' }
     )
 
@@ -234,7 +234,7 @@ const fetchData = async () => {
 
     // サマリーデータの取得
     const summaryResponse = await fetch(
-      `http://prometheus.polyarchy.net.s3-website-ap-northeast-1.amazonaws.com/jobs/${props.jobName}/summary.json`,
+      `https://d18pux3zofd2wh.cloudfront.net/jobs/${props.jobName}/summary.json`,
       { method: 'GET' }
     )
     const summaryDataResponse = await summaryResponse.json()
@@ -351,7 +351,7 @@ const fetchData = async () => {
     const downloadExcel = async () => {
       try {
         const response = await fetch(
-          `http://prometheus.polyarchy.net.s3-website-ap-northeast-1.amazonaws.com/jobs/${props.jobName}/output.xlsx`,
+          `https://d18pux3zofd2wh.cloudfront.net/jobs/${props.jobName}/output.xlsx`,
           { method: 'GET' }
         )
         

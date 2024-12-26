@@ -148,7 +148,7 @@ export default {
     async downloadExcel(jobName) {
       try {
         const response = await fetch(
-          `http://prometheus.polyarchy.net.s3-website-ap-northeast-1.amazonaws.com/jobs/${jobName}/output.xlsx`,
+          `https://d18pux3zofd2wh.cloudfront.net/jobs/${jobName}/output.xlsx`,
           { method: 'GET' }
         );
         if (!response.ok) throw new Error('ダウンロード失敗');
