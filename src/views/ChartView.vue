@@ -60,7 +60,7 @@
         <div class="card-content">
           <line-chart
             v-if="chartData"
-            :type="chartType || 'bar'"
+            :type="chartType"
             :data="chartData"
             :options="chartOptions"
             class="chart"
