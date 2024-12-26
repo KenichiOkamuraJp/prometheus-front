@@ -60,7 +60,7 @@
         <div class="card-content">
           <line-chart
             v-if="chartData"
-            :type="chartType || 'line'"
+            :type="chartType || 'bar'"
             :data="chartData"
             :options="chartOptions"
             class="chart"
@@ -176,6 +176,9 @@
 
 <script>
 import { ref, watch } from 'vue'
+import 'chart.js/auto';
+import { Line } from 'vue-chartjs'
+/*
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -187,8 +190,6 @@ import {
   Tooltip,
   Legend
 } from 'chart.js'
-import { Line } from 'vue-chartjs'
-
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -199,7 +200,7 @@ ChartJS.register(
   Tooltip,
   Legend
 )
-
+*/
 export default {
   name: 'ChartView',
   components: {
