@@ -3,6 +3,7 @@
     <nav>
       <router-link to="/single">単一条件シミュレーション</router-link> |
       <router-link to="/multiple">複数条件シミュレーション</router-link> |
+      <router-link to="/sensitivity">感応度分析</router-link> |
       <router-link to="/inquiry">結果参照</router-link>
     </nav>
     <router-view></router-view>

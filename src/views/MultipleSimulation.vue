@@ -1,15 +1,15 @@
 // views/MultipleSimulation.vue
 <template>
-  <BatchJobForm />
+  <MultipleBatchJobForm />
 </template>
 
 <script>
-import BatchJobForm from '@/components/kickMultiple.vue'
+import MultipleBatchJobForm from '@/components/kickMultiple.vue'
 
 export default {
   name: 'MultipleSimulation',
   components: {
-    BatchJobForm
+    MultipleBatchJobForm
   }
 }
 </script>

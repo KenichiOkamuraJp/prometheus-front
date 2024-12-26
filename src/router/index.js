@@ -2,6 +2,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import SingleSimulation from '../views/SingleSimulation.vue'
 import MultipleSimulation from '../views/MultipleSimulation.vue'
+import SensitivitySimulation from '@/views/SensitivitySimulation.vue'
 import InquiryView from '../views/InquiryView.vue'
 import S3ChartSample from '../views/ChartView.vue'
 
@@ -24,6 +25,14 @@ const routes = [
     component: MultipleSimulation,
     meta: {
       title: '複数条件シミュレーション'
+    }
+  },
+  {
+    path: '/sensitivity',
+    name: 'sensitivity',
+    component: SensitivitySimulation,
+    meta: {
+      title: '感応度調査'
     }
   },
   {
