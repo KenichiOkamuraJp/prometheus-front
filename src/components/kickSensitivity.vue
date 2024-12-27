@@ -245,20 +245,20 @@
         },
         parameterOptions: {
           'macroeconomics.supply': [
-            { code: 'tfp_start', name: 'TFP成長率：標準＝0.3' },
-            { code: 'inside_investment_ratio', name: '国内投資性向：標準＝0.5' }
+            { code: 'tfp_start', name: 'TFP成長率（default＝0.5）' },
+            { code: 'inside_investment_ratio', name: '国内投資性向（defalut＝0.5）' }
           ],
           'macroeconomics.price': [
-            { code: 'inflation_target', name: 'インフレターゲット：標準＝0' },
+            { code: 'inflation_target', name: 'インフレターゲット（defalut＝0）' },
           ],
           'macroeconomics.national_income': [
-            { code: 'target_of_worker_distribution_rate', name: '労働分配率目標：標準＝0.75' },
+            { code: 'target_of_worker_distribution_rate', name: '労働分配率目標：（defalut＝0.75）' },
           ],
           'socialsecurity.medicare': [
-            { code: 'cost_growth_margin', name: '医療コスト上昇率：標準＝1.01' },
+            { code: 'cost_growth_margin', name: '医療コスト上昇率（defalut＝1.01）' },
           ],
           'government.national.spending': [
-            { code: 'sensitivity_of_growth', name: '予算伸び率（物価に対する感応度）：標準＝0.8' },
+            { code: 'sensitivity_of_growth', name: '予算伸び率（対物価感応度）（defalut＝0.8）' },
           ]
         }
       };

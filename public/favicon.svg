@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- 背景円 -->
+  <circle cx="16" cy="16" r="15" fill="#2C3E50"/>
+  
+  <!-- 上昇トレンドを表す折れ線グラフ -->
+  <path d="M8 20 L13 15 L18 17 L24 10" 
+        stroke="#4CAF50" 
+        stroke-width="2" 
+        fill="none"/>
+  
+  <!-- ドット（データポイント） -->
+  <circle cx="13" cy="15" r="1.5" fill="#4CAF50"/>
+  <circle cx="18" cy="17" r="1.5" fill="#4CAF50"/>
+  <circle cx="24" cy="10" r="1.5" fill="#4CAF50"/>
+  
+  <!-- 円グラフの一部を表現 -->
+  <path d="M16 16 L16 8 A8 8 0 0 1 24 16 Z" 
+        fill="#3498DB" 
+        opacity="0.8"/>
+  
+  <!-- $ 記号 -->
+  <text x="14" y="20" 
+        font-family="Arial" 
+        font-size="8" 
+        fill="#ECF0F1" 
+        font-weight="bold">$</text>
+</svg>

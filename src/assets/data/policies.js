@@ -14,7 +14,7 @@ export const policiesData = {
     {
       id: "policy-tax-increase",
       category: "tax",
-      name: "消費税率引き上げ",
+      name: "消費税率引き上げ（2025年から1%ずつ15%まで）",
       content: "消費税率を段階的に15%まで引き上げ、その後15%を維持",
       body: {
         "consumption_tax_rate": {
@@ -36,7 +36,7 @@ export const policiesData = {
     {
       id: "policy-tax-decrease",
       category: "tax",
-      name: "消費税率引き下げ",
+      name: "消費税率引き下げ（2025年から1%ずつ5%まで）",
       content: "消費税率を段階的に5%まで引き下げ、その後5%を維持",
       body: {
         "consumption_tax_rate": {
